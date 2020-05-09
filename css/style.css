@@ -28,7 +28,6 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 100px;
-    flex-basis: 15%;
 }
 .header-wrap{
     width: 100%;
@@ -36,6 +35,7 @@ body{
     top: 0;
     margin: auto;
     background: rgba(0, 0, 0, 0.377)
+    flex-basis: 15%;
 }
 .header-wrap.fixed {
     width: 100%;
