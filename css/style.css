@@ -31,12 +31,8 @@ body{
 }
 .header-wrap{
     width: 100%;
-    position: fixed;
-    top: 0;
     margin: auto;
     flex-basis: 15%;
-    background: rgba(0, 0, 0, 0.377)
-  
 }
 .header-wrap.fixed {
     width: 100%;
