@@ -4,6 +4,10 @@ body{
     padding: 0;
 }
 .container-page{
+    max-width: 100%;
+    margin: auto;
+}
+.main-container{
     max-width: 1600px;
     margin: auto;
 }
@@ -26,11 +30,17 @@ body{
     height: 100px;
     flex-basis: 15%;
 }
+.header-wrap{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.377)
+}
 .header-wrap.fixed {
     width: 100%;
     position: fixed;
     top: 0;
-    max-width: 1600px;
     margin: auto;
     background: rgba(0, 0, 0, 0.377)
 }
